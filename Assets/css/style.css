@@ -85,11 +85,13 @@ header {
   gap: 1rem;
 }
 
-.home-text {
+.home-text,
+.about-text {
   flex: 1 1 17rem;
 }
 
-.home-img {
+.home-img,
+.about-img {
   flex: 1 1 17rem;
 }
 
@@ -230,20 +232,33 @@ header {
     margin-top: 2rem;
 }
 
-.delivery-img {
+.delivery-img,
+.app-img {
     flex: 1 1 21rem;
 }
 
-.delivery-text {
+.delivery-text,
+.app-text {
     flex: 1 1 21rem;
 }
 
-.delivery-text h2 {
+.delivery-text h2,
+.app-text h2,
+.about-text h2 {
     color: var(--second-color);
     font-size: 1.2rem;
 }
 
-.delivery-text p {
+.delivery-text p,
+.app-text p,
+.about-text p {
     margin: 0.5rem 0 1rem;
     text-align: justify;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    background: #ebdbc8;
+    gap: 1.5rem;
 }
