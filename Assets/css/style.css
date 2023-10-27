@@ -222,3 +222,28 @@ header {
     background: #ebdbc8;
     color: var(--second-color);
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.delivery-img {
+    flex: 1 1 21rem;
+}
+
+.delivery-text {
+    flex: 1 1 21rem;
+}
+
+.delivery-text h2 {
+    color: var(--second-color);
+    font-size: 1.2rem;
+}
+
+.delivery-text p {
+    margin: 0.5rem 0 1rem;
+    text-align: justify;
+}
